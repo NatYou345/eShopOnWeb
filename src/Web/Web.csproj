@@ -17,7 +17,7 @@
     <PackageReference Include="Ardalis.ListStartupServices" Version="1.1.4" />
     <PackageReference Include="Ardalis.Specification" Version="7.0.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
-    <PackageReference Include="MediatR" Version="12.1.1" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" Condition="'$(Configuration)'=='Release'" PrivateAssets="All" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="7.0.10" />
     <PackageReference Include="Microsoft.Azure.AppConfiguration.AspNetCore" Version="6.1.0" />
