@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lxYhyeGDcH/K2Cb6jnEh4XQmoG+zNRLb8zaLVvzLiDjl5kgt+guwsbiQXU13Ws8a49p+08qkpnG/bP7vDlDahA==",
+  "dgSpecHash": "bVtxw8qgrU6NW8lRQCqof9yGfnuodwakYoyW1MO0OiWfcvwNL2KGnaMkltjgRfcAgL+K0y6ZVSrenaQAnUcu3w==",
   "success": true,
   "projectFilePath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\tests\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
@@ -311,7 +311,6 @@
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.runtime.loader\\4.3.0\\system.runtime.loader.4.3.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.runtime.numerics\\4.3.0\\system.runtime.numerics.4.3.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.security.claims\\4.3.0\\system.security.claims.4.3.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0\\system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\system.security.cryptography.cng.5.0.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.security.cryptography.csp\\4.3.0\\system.security.cryptography.csp.4.3.0.nupkg.sha512",
@@ -323,7 +322,6 @@
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\system.security.cryptography.x509certificates.4.3.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.security.cryptography.xml\\4.5.0\\system.security.cryptography.xml.4.5.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.security.principal\\4.3.0\\system.security.principal.4.3.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
