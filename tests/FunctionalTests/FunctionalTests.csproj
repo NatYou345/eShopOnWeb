@@ -20,7 +20,7 @@
     </PackageReference>
     <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.4" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\ApplicationCore\ApplicationCore.csproj" />
