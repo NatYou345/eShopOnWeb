@@ -1,0 +1,60 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.vspscc
+*.vssscc
+*.DotSettings.user
+
+# ReSharper
+_ReSharper*/
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# User-specific files
+*.rsuser
+
+# Build output
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# dotnet user secrets
+secrets.json
+
+# Output files from coverage
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Node.js
+node_modules/
+
+# IDE
+.idea/
+*.swp
+*~
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
