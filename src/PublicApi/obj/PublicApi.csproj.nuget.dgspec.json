@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\PublicApi\\PublicApi.csproj": {}
+    "/home/runner/work/eShopOnWeb/eShopOnWeb/src/PublicApi/PublicApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj": {
+    "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\ApplicationCore\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj"
               }
             }
           }
@@ -41,7 +41,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -80,21 +81,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj": {
+    "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj",
         "projectName": "BlazorShared",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\BlazorShared\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -117,7 +118,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -148,21 +150,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj": {
+    "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\Infrastructure\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -174,8 +176,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj"
               }
             }
           }
@@ -189,7 +191,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -232,21 +235,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\PublicApi\\PublicApi.csproj": {
+    "/home/runner/work/eShopOnWeb/eShopOnWeb/src/PublicApi/PublicApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\PublicApi\\PublicApi.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/PublicApi/PublicApi.csproj",
         "projectName": "PublicApi",
-        "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\PublicApi\\PublicApi.csproj",
-        "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\PublicApi\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/PublicApi/PublicApi.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/PublicApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -258,11 +261,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj"
               },
-              "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -276,7 +279,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -366,7 +370,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

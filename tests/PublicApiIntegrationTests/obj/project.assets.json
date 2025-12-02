@@ -13674,19 +13674,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\": {}
+    "/home/runner/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\tests\\PublicApiIntegrationTests\\PublicApiIntegrationTests.csproj",
+      "projectUniqueName": "/home/runner/work/eShopOnWeb/eShopOnWeb/tests/PublicApiIntegrationTests/PublicApiIntegrationTests.csproj",
       "projectName": "PublicApiIntegrationTests",
-      "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\tests\\PublicApiIntegrationTests\\PublicApiIntegrationTests.csproj",
-      "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\tests\\PublicApiIntegrationTests\\obj\\",
+      "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/tests/PublicApiIntegrationTests/PublicApiIntegrationTests.csproj",
+      "packagesPath": "/home/runner/.nuget/packages/",
+      "outputPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/tests/PublicApiIntegrationTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/runner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -13698,11 +13698,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\PublicApi\\PublicApi.csproj": {
-              "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\PublicApi\\PublicApi.csproj"
+            "/home/runner/work/eShopOnWeb/eShopOnWeb/src/PublicApi/PublicApi.csproj": {
+              "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/PublicApi/PublicApi.csproj"
             },
-            "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\Web\\Web.csproj": {
-              "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\Web\\Web.csproj"
+            "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Web/Web.csproj": {
+              "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Web/Web.csproj"
             }
           }
         }
@@ -13716,7 +13716,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -13759,7 +13760,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -219,6 +219,12 @@
           "buildMultiTargeting/BlazorInputFile.props": {}
         }
       },
+      "BuildBundlerMinifier/3.2.449": {
+        "type": "package",
+        "build": {
+          "build/BuildBundlerMinifier.targets": {}
+        }
+      },
       "DnsClient/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -4095,6 +4101,34 @@
         "lib/netstandard2.0/BlazorInputFile.dll",
         "lib/netstandard2.1/BlazorInputFile.dll",
         "staticwebassets/inputfile.js"
+      ]
+    },
+    "BuildBundlerMinifier/3.2.449": {
+      "sha512": "uA9sYDy4VepL3xwzBTLcP2LyuVYMt0ZIT3gaSiXvGoX15Ob+rOP+hGydhevlSVd+rFo+Y+VQFEHDuWU8HBW+XA==",
+      "type": "package",
+      "path": "buildbundlerminifier/3.2.449",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/BuildBundlerMinifier.targets",
+        "buildbundlerminifier.3.2.449.nupkg.sha512",
+        "buildbundlerminifier.nuspec",
+        "tools/net46/BundlerMinifier.dll",
+        "tools/net46/NUglify.dll",
+        "tools/net46/Newtonsoft.Json.dll",
+        "tools/netcoreapp2.0/BundlerMinifier.dll",
+        "tools/netcoreapp2.0/NUglify.dll",
+        "tools/netcoreapp2.0/Newtonsoft.Json.dll",
+        "tools/netcoreapp3.0/BundlerMinifier.dll",
+        "tools/netcoreapp3.0/NUglify.dll",
+        "tools/netcoreapp3.0/Newtonsoft.Json.dll",
+        "tools/netcoreapp3.1/BundlerMinifier.dll",
+        "tools/netcoreapp3.1/NUglify.dll",
+        "tools/netcoreapp3.1/Newtonsoft.Json.dll",
+        "tools/netstandard1.3/BundlerMinifier.dll",
+        "tools/netstandard1.3/NUglify.dll",
+        "tools/netstandard1.3/Newtonsoft.Json.dll"
       ]
     },
     "DnsClient/1.7.0": {
@@ -10744,6 +10778,7 @@
       "Azure.Identity >= 1.10.4",
       "BlazorAdmin >= 1.0.0",
       "BlazorShared >= 1.0.0",
+      "BuildBundlerMinifier >= 3.2.449",
       "Infrastructure >= 1.0.0",
       "MediatR >= 12.2.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.3",
@@ -10762,19 +10797,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\": {}
+    "/home/runner/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\Web\\Web.csproj",
+      "projectUniqueName": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Web/Web.csproj",
       "projectName": "Web",
-      "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\Web\\Web.csproj",
-      "packagesPath": "C:\\Users\\ALLEGRANathan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\Web\\obj\\",
+      "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Web/Web.csproj",
+      "packagesPath": "/home/runner/.nuget/packages/",
+      "outputPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Web/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ALLEGRANathan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/runner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -10786,17 +10821,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj"
+            "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj": {
+              "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj"
             },
-            "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\BlazorAdmin\\BlazorAdmin.csproj": {
-              "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\BlazorAdmin\\BlazorAdmin.csproj"
+            "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/BlazorAdmin.csproj": {
+              "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/BlazorAdmin.csproj"
             },
-            "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj": {
-              "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj"
+            "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj": {
+              "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj"
             },
-            "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\ALLEGRANathan\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj"
+            "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj"
             }
           }
         }
@@ -10810,7 +10845,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -10831,6 +10867,11 @@
           "Azure.Identity": {
             "target": "Package",
             "version": "[1.10.4, )"
+          },
+          "BuildBundlerMinifier": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.2.449, )"
           },
           "MediatR": {
             "target": "Package",
@@ -10908,8 +10949,30 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.10.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.10.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
