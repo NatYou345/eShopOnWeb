@@ -62,7 +62,7 @@
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.5, )"
             }
           },
           "imports": [
@@ -565,7 +565,7 @@
             },
             "Azure.Identity": {
               "target": "Package",
-              "version": "[1.10.4, )"
+              "version": "[1.13.2, )"
             },
             "BuildBundlerMinifier": {
               "suppressParent": "All",
@@ -619,10 +619,6 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.2, )"
-            },
-            "Microsoft.Web.LibraryManager.Build": {
-              "target": "Package",
-              "version": "[2.1.175, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

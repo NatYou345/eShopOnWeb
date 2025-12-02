@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rqNhKsfh1AY=",
+  "dgSpecHash": "QE2eTrC2+zs=",
   "success": true,
   "projectFilePath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/PublicApi/PublicApi.csproj",
   "expectedPackageFiles": [
@@ -192,7 +192,7 @@
     "/home/runner/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
-    "/home/runner/.nuget/packages/system.text.json/8.0.3/system.text.json.8.0.3.nupkg.sha512",
+    "/home/runner/.nuget/packages/system.text.json/8.0.5/system.text.json.8.0.5.nupkg.sha512",
     "/home/runner/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.threading.tasks.dataflow/7.0.0/system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
     "/home/runner/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",

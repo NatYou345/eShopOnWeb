@@ -1078,11 +1078,6 @@
 /home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/compressed/3n6ba1mpcv-{0}-tptq2av103-tptq2av103.gz
 /home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/compressed/8k660vwnsq-{0}-lfu7j35m59-lfu7j35m59.gz
 /home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/compressed/mbcmsepxtz-{0}-oyz0vx2fzb-oyz0vx2fzb.gz
-/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/compressed/i08vaug47z-{0}-aqmai1ztdy-aqmai1ztdy.gz
-/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/compressed/gpto47ot93-{0}-5hha861ooc-5hha861ooc.gz
-/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/compressed/frs59sta1m-{0}-h673i7a6ze-h673i7a6ze.gz
-/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/compressed/fm5doft37w-{0}-9y0b968748-9y0b968748.gz
-/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/compressed/8d2yaaf3ad-{0}-w8n3e687dt-w8n3e687dt.gz
 /home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/staticwebassets.build.json
 /home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/staticwebassets.build.json.cache
 /home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/staticwebassets.development.json
@@ -1093,3 +1088,8 @@
 /home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/refint/BlazorAdmin.dll
 /home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/BlazorAdmin.pdb
 /home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/ref/BlazorAdmin.dll
+/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/compressed/i08vaug47z-{0}-qrhyjul8pj-qrhyjul8pj.gz
+/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/compressed/gpto47ot93-{0}-fc4jbmp6l9-fc4jbmp6l9.gz
+/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/compressed/frs59sta1m-{0}-cub52e3i0q-cub52e3i0q.gz
+/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/compressed/fm5doft37w-{0}-kdpe82hkuf-kdpe82hkuf.gz
+/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/Release/net8.0/compressed/8d2yaaf3ad-{0}-8dp8ulm1kw-8dp8ulm1kw.gz
