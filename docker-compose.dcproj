@@ -9,6 +9,7 @@
     <DockerServiceName>eshopwebmvc</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
+    <None Include=".github\upgrades\scenarios\new-dotnet-version_599bde\plan.md" />
     <None Include="docker-compose.override.yml">
       <DependentUpon>docker-compose.yml</DependentUpon>
     </None>
