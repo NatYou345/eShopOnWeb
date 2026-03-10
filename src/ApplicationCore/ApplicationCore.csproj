@@ -8,7 +8,6 @@
     <PackageReference Include="Ardalis.GuardClauses" Version="5.0.0" />
     <PackageReference Include="Ardalis.Specification" Version="9.3.1" />
     <PackageReference Include="MediatR" Version="14.1.0" />
-    <PackageReference Include="System.Text.Json" Version="10.0.3" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BlazorShared\BlazorShared.csproj" />
