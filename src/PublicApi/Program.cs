@@ -114,13 +114,17 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 var app = builder.Build();
+var seedDatabase = app.Environment.IsDevelopment()
+    || app.Environment.IsEnvironment("Testing")
+    || builder.Configuration.GetValue<bool>("SeedDatabase");
 
 app.Logger.LogInformation("PublicApi App created...");
 
-app.Logger.LogInformation("Seeding Database...");
-
-using (var scope = app.Services.CreateScope())
+if (seedDatabase)
 {
+    app.Logger.LogInformation("Seeding Database...");
+
+    using var scope = app.Services.CreateScope();
     var scopedProvider = scope.ServiceProvider;
     try
     {

@@ -5,14 +5,14 @@
     <UserSecretsId>5b662463-1efd-4bae-bde4-befe0be3e8ff</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..</DockerfileContext>
-    <Nullable>disable</Nullable>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Ardalis.ApiEndpoints" Version="4.1.0" />
     <PackageReference Include="AutoMapper" Version="16.1.1" />
     <PackageReference Include="MediatR" Version="14.1.0" />
     <PackageReference Include="MinimalApi.Endpoint" Version="1.3.0" />
-    <PackageReference Include="Microsoft.OpenApi" Version="3.5.2" />
+    <PackageReference Include="Microsoft.OpenApi" Version="3.9.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.1.7" />
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="10.1.7" />
@@ -26,7 +26,6 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.6" PrivateAssets="all" IncludeAssets="runtime; build; native; contentfiles; analyzers; buildtransitive" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="NuGet.Packaging" Version="6.12.5" />
     <ProjectReference Include="..\ApplicationCore\ApplicationCore.csproj" />
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>

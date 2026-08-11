@@ -126,6 +126,9 @@ builder.Services.AddBlazorServices();
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 var app = builder.Build();
+var seedDatabase = builder.Environment.IsDevelopment()
+    || builder.Environment.IsEnvironment("Testing")
+    || builder.Configuration.GetValue<bool>("SeedDatabase");
 
 if (useAppConfig)
 {
@@ -135,10 +138,11 @@ if (useAppConfig)
 
 app.Logger.LogInformation("App created...");
 
-app.Logger.LogInformation("Seeding Database...");
-
-using (var scope = app.Services.CreateScope())
+if (seedDatabase)
 {
+    app.Logger.LogInformation("Seeding Database...");
+
+    using var scope = app.Services.CreateScope();
     var scopedProvider = scope.ServiceProvider;
     try
     {

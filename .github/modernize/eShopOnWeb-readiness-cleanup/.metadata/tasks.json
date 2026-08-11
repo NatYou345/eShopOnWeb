@@ -1,0 +1,62 @@
+{
+  "tasks": [
+    {
+      "id": "001-enable-nullable",
+      "type": "transform",
+      "description": "Enable nullable reference types in production projects",
+      "requirements": "Turn on nullable reference types for the production projects already on .NET 10, then fix resulting warnings and compile issues without changing the target framework.",
+      "environmentConfiguration": null,
+      "skills": [
+        {
+          "name": "nullable-reference-types",
+          "location": "builtin"
+        }
+      ],
+      "successCriteria": {
+        "passBuild": "true",
+        "passUnitTests": "true"
+      }
+    },
+    {
+      "id": "002-clean-package-manifests",
+      "type": "upgrade",
+      "description": "Clean up legacy package and build-tool references",
+      "requirements": "Review the production manifests for stale or redundant references, remove packages that are no longer needed, and align the remaining packages to the current baseline where usage still requires them.",
+      "environmentConfiguration": null,
+      "skills": [
+        {
+          "name": "dependency-management",
+          "location": "builtin"
+        }
+      ],
+      "successCriteria": {
+        "passBuild": "true",
+        "passUnitTests": "true"
+      }
+    },
+    {
+      "id": "003-decouple-startup-seeding",
+      "type": "transform",
+      "description": "Decouple database and identity seeding from normal startup",
+      "requirements": "Move seeding out of unconditional startup paths so web apps can start without performing database and identity initialization during every launch.",
+      "environmentConfiguration": null,
+      "skills": [
+        {
+          "name": "startup-refactor",
+          "location": "builtin"
+        }
+      ],
+      "successCriteria": {
+        "passBuild": "true",
+        "passUnitTests": "true"
+      }
+    }
+  ],
+  "metadata": {
+    "language": "dotnet",
+    "planName": "eShopOnWeb-readiness-cleanup",
+    "projectName": "eShopOnWeb",
+    "createdAt": "2026-08-11T00:00:00Z",
+    "version": "1.0"
+  }
+}
